@@ -1,3 +1,17 @@
+function copyToClipboard(v) {
+
+  var valor = document.getElementById(v);
+  
+  valor.select();
+  document.execCommand("copy");
+  
+}
+
+function autoAjustar(elemento) {
+  elemento.style.height = "auto";
+  elemento.style.height = elemento.scrollHeight + "px";
+}
+
 var lives = [];
 function saludar() {
   var nombre = document.getElementById("nombre").value;
