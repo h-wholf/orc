@@ -135,3 +135,8 @@ function datos() {
 
 
 }
+
+function agregarUrl() {
+      var url = document.getElementById("url").value;
+      document.getElementById("miIframe").src = url;
+    }

@@ -21,8 +21,12 @@
 
 
 
-
-
+<div>
+	<input class="inputBox" type="text" id="url" placeholder="Introduce la URL">
+	<button class="boton2" onclick="agregarUrl()">Agregar URL</button>
+	<br><br>
+	<iframe class="contenido" id="miIframe" width="90%" height= "400px" ></iframe>
+</div>
 
 
 
