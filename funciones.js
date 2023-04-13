@@ -140,3 +140,22 @@ function agregarUrl() {
       var url = document.getElementById("url").value;
       document.getElementById("miIframe").src = url;
     }
+    
+function fake() {
+  
+  var pais = document.getElementById("pais").value;
+  document.getElementById("cajapais").value = pais;
+  //var z = y.value;
+  //var start = y.selectionStart;
+  //var end = y.selectionEnd;
+  //y.value = z.substring(0, start) + x + z
+}
+function urlfake() {
+
+      let url = document.getElementById("pais").value;
+      let link = "addres.php"+ "IHVzCg==";
+      
+
+      document.getElementById("fakedata").src = link;
+    }
+ 

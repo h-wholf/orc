@@ -231,3 +231,8 @@ border-collapse: separate;
 border-spacing: 70px 15px;
 }
 
+@media only screen and (max-width: 600px) {
+  table {
+    width: 100%;
+  }
+}
